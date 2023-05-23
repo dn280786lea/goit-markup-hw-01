@@ -35,7 +35,9 @@ body {
     color: var(--color-backa);
     text-decoration: none;
   }
-  
+  .link{
+    text-decoration: none;
+  }
 
   .main-links{
     color: var(--color-backa);
