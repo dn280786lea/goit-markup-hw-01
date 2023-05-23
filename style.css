@@ -49,9 +49,9 @@ color: #404BBF;
   }
 
   .main-section{
-width: 1440px;
-height: 600px;
-background: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    background: #2E2F42;
   }
   .main-section_text{
     font-family: 'Roboto';
