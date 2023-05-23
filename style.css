@@ -210,6 +210,9 @@ body {
     text-transform: capitalize;
     color: var(--color-backa);
 }
+.address{
+  font-style: normal;
+}
 .heading-button{
     background-color:  #F4F4FD;
     border: 1px solid #E7E9FC;
@@ -220,6 +223,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 
 }
 .heading-button:hover {
@@ -234,7 +238,6 @@ body {
     color: #FFFFFF;}
 
     .heading-button:active{
-        color: #FFFFFF;
-        background-color: #404BBF;
-        cursor: pointer;
+      color: #FFFFFF;
+      background-color: #404BBF;
     }
