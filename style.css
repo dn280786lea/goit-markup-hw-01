@@ -40,7 +40,9 @@ body {
   .link{
     text-decoration: none;
   }
-
+.main-link:active {
+  color: #404bbf;
+}
   .main-links{
     color: var(--color-backa);
     font-family: 'Roboto',sans-serif;
