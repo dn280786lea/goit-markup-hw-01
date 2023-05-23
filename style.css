@@ -118,12 +118,12 @@ body {
     color: #FFFFFF;
 }
 .main-section_button:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: #404BBF;
 }
 .main-section_button:active {
-    background-color: #404BBF;
+    color: #404BBF;
     cursor: pointer;
+    
 }
 
 .main-section-heading{
