@@ -66,6 +66,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    
   }
   .contact:hover{
     font-family: 'Roboto';
@@ -80,15 +81,18 @@ body {
     width: 1440px;
     height: 600px;
     background: var(--color-backa);
+    line-height: 1.07;
   }
   .main-section_text{
-    font-family: 'Roboto';
+    font-family:"Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     text-align: center;
     color: #FFFFFF;
     padding: 188px 472px 0px 472px;
+    letter-spacing: 0.02em
+   
 }
 .main-section_button{
     font-family: 'Roboto';
@@ -102,11 +106,13 @@ body {
     border-radius: 4px;
     text-align: center;
     margin: 48px 635px 188px 636px;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
 }
 .main-section_button:hover {
-    background: #404BBF;
     color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
 }
 .main-section-heading{
     font-family: 'Roboto';
@@ -122,6 +128,13 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+}
+.images-heading{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color:var(--color-backa);
 }
 .team-heading{
     font-family: 'Roboto';
