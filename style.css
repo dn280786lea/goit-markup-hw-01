@@ -86,8 +86,6 @@ body {
   }
 
   .main-section{
-    width: 1440px;
-    height: 600px;
     background: var(--color-backa);
     line-height: 1.07;
   }
@@ -183,8 +181,6 @@ body {
 }
 .footer{
     background: var(--color-backa);
-    Width:1440px;
-    Height:312px;
 }
 .footer-paraf{
     font-family: 'Roboto',sans-serif;
