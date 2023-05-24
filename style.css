@@ -117,14 +117,14 @@ body {
     margin: 48px 635px 188px 636px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .main-section_button:hover {
-    color: #404BBF;
+  background-color: #404BBF;
 }
 .main-section_button:active {
-    color: #404BBF;
+  background-color: #404BBF;
     cursor: pointer;
-    
 }
 
 .main-section-heading{
@@ -177,6 +177,9 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
+}
+.team-img{
+  background-color: #FFFFFF
 }
 .footer{
     background: var(--color-backa);
