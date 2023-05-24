@@ -4,7 +4,7 @@
   }
 
 body {
-    font-family: "Roboto",sans-serif, "Raleway";
+  font-family: 'Raleway',sans-serif,'Roboto Serif', serif;
     color: #434455;
     background-color: #FFFFFF;
     font-style: normal;
@@ -89,7 +89,9 @@ body {
   .contact:focus{
     color: #404bbf;
   }
-
+  .contact_list {
+    font-style: normal
+  }
   .main-section{
     background: var(--color-backa);
     line-height: 1.07;
@@ -163,6 +165,9 @@ body {
     text-transform: capitalize;
     color:var(--color-backa);
 }
+.team-information{
+  background-color: #FFFFFF;
+}
 .team-heading{
     font-family: 'Roboto'.sans-serif;
     font-weight: 500;
@@ -184,6 +189,7 @@ body {
 .team-img{
   background-color: #FFFFFF
 }
+
 .footer{
     background: var(--color-backa);
 }
