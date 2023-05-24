@@ -9,9 +9,6 @@ body {
     background-color: #FFFFFF;
     font-style: normal;
   }
-  h1, h2, h3{
-    font-family:"Roboto", sans-serif;
-  }
   ul{
 
 	list-style-type: none;
@@ -187,7 +184,9 @@ body {
 .team-img{
   background-color: #FFFFFF
 }
-
+.team-info-link{
+  background-color: #FFFFFF;
+}
 .footer{
     background: var(--color-backa);
 }
