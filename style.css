@@ -1,8 +1,10 @@
-:root {--color-logo:#4D5AE5;
-    --color-backa:#2E2F42;}
+:root {
+    --color-logo:#4D5AE5;
+    --color-backa:#2E2F42;
+  }
 
 body {
-    font-family: "Roboto",sans-serif, "Raleway",sans-serif;
+    font-family: "Roboto",sans-serif, "Raleway";
     color: #434455;
     background-color: #FFFFFF;
     font-style: normal;
@@ -35,7 +37,7 @@ body {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     text-transform: uppercase;
     color: var(--color-backa);
     text-decoration: none;
@@ -43,7 +45,7 @@ body {
   .link{
     text-decoration: none;
   }
-  .main-links{
+  .header-links{
     color: var(--color-backa);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -54,7 +56,7 @@ body {
     line-height: 1.5;
    
   }
-  .main-links:hover{
+  .header-links:hover{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -62,7 +64,7 @@ body {
     line-height: 24px;
     color:#404BBF
   }
-  .main-link:active{
+  .header-link:focus{
     color: #404bbf;
   }
   .contact{
@@ -120,7 +122,7 @@ body {
 .main-section_button:hover {
   background-color: #404BBF;
 }
-.main-section_button:active {
+.main-section_button:focus {
   background-color: #404BBF;
 
 }
@@ -140,7 +142,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
 }
-.images-heading{
+.images-title{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -237,7 +239,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;}
 
-    .heading-button:active{
+    .heading-button:focus{
       color: #FFFFFF;
       background-color: #404BBF;
     }
