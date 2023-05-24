@@ -4,7 +4,7 @@
   }
 
 body {
-  font-family: 'Raleway',sans-serif,'Roboto Serif', serif;
+  font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     font-style: normal;
@@ -165,9 +165,7 @@ body {
     text-transform: capitalize;
     color:var(--color-backa);
 }
-.team-information{
-  background-color: #FFFFFF;
-}
+
 .team-heading{
     font-family: 'Roboto'.sans-serif;
     font-weight: 500;
