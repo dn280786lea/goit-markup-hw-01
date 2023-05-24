@@ -2,7 +2,7 @@
     --color-backa:#2E2F42;}
 
 body {
-    font-family: "Roboto",sans-serif "Raleway",sans-serif;
+    font-family: "Roboto",sans-serif, "Raleway",sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     font-style: normal;
@@ -54,7 +54,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    line-height: 1.5;
+   
   }
   .main-links:hover{
     font-family: 'Roboto',sans-serif;
