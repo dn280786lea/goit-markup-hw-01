@@ -280,7 +280,7 @@ body {
     background: var(--color-backa);
     padding: 100px 0;
 }
-.footer-footer{
+.logo-footer{
   display: inline-block;
   margin-bottom: 16px; 
 }
@@ -296,16 +296,7 @@ body {
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-.footer-logo-primary{
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD;
-    max-width: 264px;
-}
+
 .address{
   font-style: normal;
 }
