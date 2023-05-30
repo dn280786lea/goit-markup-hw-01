@@ -4,6 +4,7 @@
 :root {
     --color-logo:#4D5AE5;
     --color-backa:#2E2F42;
+    --color-new:#e7e9fc;
   }
 
 body {
@@ -34,7 +35,7 @@ body {
   }
 
   .header{
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid var(--color-new);
   }
   .container{
     width: 1158px;
