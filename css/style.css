@@ -251,6 +251,7 @@ body {
     margin-top: 120px;
     letter-spacing: 0.02em;
     color:var(--color-backa);
+    text-transform: capitalize;
     margin-left: auto; 
     margin-right: auto;
 }
@@ -312,6 +313,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 .logo-primary-foter{
 font-family: 'Raleway';
@@ -320,6 +322,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 21px;
 color: #F4F4FD;
+
 }
 
 .address{
