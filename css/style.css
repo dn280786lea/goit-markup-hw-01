@@ -164,12 +164,19 @@ body {
 }
 
   .section-second{
-    padding: 120px 0
+    padding: 120px 0;
   }
 
-.visually-hidden {
-  display: none;
-  margin-bottom: 8px;}
+  .visually-hidden { position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden; }
 
 .main-section-goal {
       display: flex;
@@ -199,13 +206,14 @@ body {
   padding-bottom: 120px;
 }
 .images-title{
+  display: inline;
       font-size: 36px;
       line-height: 1.11;
       text-align: center;
       text-transform: capitalize;
       color:var(--color-backa);
-      margin: 72px 558px 0 559px;
-      margin-bottom: 72px;
+
+      margin: 120px 558px 72px 559px;
 }
 .images-gadget{
     display: flex;
@@ -236,7 +244,7 @@ body {
 }
 
 .team-head{
-    font-family: 'Roboto'.sans-serif;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
