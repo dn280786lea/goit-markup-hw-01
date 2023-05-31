@@ -335,10 +335,10 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     padding: 12px 24px 12px 24px;
-    border: 1px solid #4d5ae5;
 
 }
-.heading-button:hover {
+.heading-button:hover,
+.heading-button:focus {
     background-color: #404BBF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -349,12 +349,6 @@ body {
     color: #FFFFFF;
     border-radius: 4px;}
 
-  .heading-button:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
-    border: 1px solid transparent;
-    border-radius: 4px;
-  }
   .team_list {
     display: flex;
     flex-wrap: wrap;
