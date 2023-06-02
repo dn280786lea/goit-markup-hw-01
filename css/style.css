@@ -369,13 +369,6 @@ color: #F4F4FD;
     color: #FFFFFF;
     border-radius: 4px;}
 
-<<<<<<< HEAD
-    .heading-button:focus{
-      color: #FFFFFF;
-      background-color: #404BBF;
-    }
-    
-=======
   .team_list {
     display: flex;
     flex-wrap: wrap;
@@ -409,4 +402,3 @@ color: #F4F4FD;
   color: #434455;
   text-align:left;
 }
->>>>>>> 52d5fa01ab3fc80e464a31564a07143679856b64
