@@ -311,16 +311,27 @@ body {
     gap: 24px;  
   }
 
- .team-icon{
+ .team-block-media{
   background: #4D5AE5;
   padding: 12px;
   border-radius:50%;
+  padding: 8px;
+ }
+ .team-block-media:hover,
+ .team-block-media:active{
+  color:#404BBF;
  }
 
- .team-block{
+ .team-block-icon{
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 8px;
+  cursor: auto;
+ }
+ .team-block-media{
+
+
  }
   .employee{ 
     padding: 32px 16px;
@@ -449,7 +460,10 @@ margin-right: auto;
 padding-top: 120px;
 padding-bottom: 72px;
 }
-
+.customers-title:hover,
+.customers-title:active { 
+  color: #404BBF;
+}
 .customers{
   padding: 120px 0;
 ;
