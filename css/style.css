@@ -369,6 +369,9 @@ font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
 }
+.socialmedia{
+  display: block;
+}
 
 .address{
   font-style: normal;
@@ -460,8 +463,8 @@ margin-right: auto;
 padding-top: 120px;
 padding-bottom: 72px;
 }
-.customers-title:hover,
-.customers-title:active { 
+.customers-icon-logo:hover,
+.customers-icon-logo:active { 
   color: #404BBF;
 }
 .customers{
