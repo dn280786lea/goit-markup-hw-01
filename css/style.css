@@ -130,6 +130,17 @@ body {
     padding: 188px 0;
     background: #2E2F42;
   }
+
+  .main-fon-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color:#F4F4FD;
+    padding: 24px 100px 24px 100px ;
+    border: #F4F4FD;
+    border-radius: 4px;
+  }
   .main-fist-section{
     display: flex;
     flex-direction: column;
@@ -299,6 +310,18 @@ body {
     display: flex;
     gap: 24px;  
   }
+
+ .team-icon{
+  background: #4D5AE5;
+  padding: 12px;
+  border-radius:50%;
+ }
+
+ .team-block{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+ }
   .employee{ 
     padding: 32px 16px;
   }
@@ -328,6 +351,12 @@ font-size: 18px;
 line-height: 21px;
 color: #F4F4FD;
 
+}
+.socialmedia-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
 }
 
 .address{
@@ -407,3 +436,42 @@ color: #F4F4FD;
   color: #434455;
   text-align:left;
 }
+.customers-title{
+  text-align: center;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+margin-left: auto; 
+margin-right: auto;
+padding-top: 120px;
+padding-bottom: 72px;
+}
+
+.customers{
+  padding: 120px 0;
+;
+}
+.customers-icon{
+  background-color: #FFFFFF;
+  Width:168px;
+  Height:88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.customers-item{
+  display: flex;
+  gap: 24px;  
+}
+
+.customers-icon{
+  width:  calc((100% - 144px) / 6);
+  padding-left: 0;
+}
+
