@@ -478,8 +478,10 @@ padding-bottom: 16px;
   border-radius:15px;
   padding: 20px;
   height: 100%;
-  transform: translateY(-100%);
-  translate: transform var(t);
+  width:100%;
+  transform: translateY(100%);
+  transition:transform 250ms ease-in-out;
+ 
 
 }
 .team_list-block-text{
