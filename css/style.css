@@ -460,22 +460,22 @@ padding-bottom: 16px;
   position: relative;
   width: calc((100% - 48px) / 3);
   padding-left: 0;
-  position: relative;
-  overflow: hidden;
-  
+
+}
+.work-img-overflow{
+position: relative;
+overflow: hidden;
 }
 .team_list_list:hover .team_list-block{
   transform: translate(0);
 
 }
 
-
 .team_list-block{
   position: absolute;
   background-color: #4D5AE5;
   top: 0;
   left: 0;
-  border-radius:15px;
   padding: 20px;
   height: 100%;
   width:100%;
@@ -589,3 +589,40 @@ padding: 16px 32px;
 
 
 
+.backdrop{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vw;
+  z-index: 2;
+}
+
+  .modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-height:584px ;
+    width:408px ;
+    background: #FCFCFC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border-radius:5px;
+  }
+  .modal-btn{
+    position: absolute;
+      right: 24px;
+      top: 24px;
+      width: 28px;
+      height: 28px;
+      border: 1px solid var(--color-backa);
+      border-radius:50%;
+      cursor: pointer;
+    
+    }
+    
+.is-hidden{
+  visibility:hidden;
+  opacity:0;
+  pointer-events:none;
+}
