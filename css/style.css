@@ -106,7 +106,7 @@ body {
   .header-links:focus{
     color:#404BBF;
     transition: color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
     
   }
 
@@ -137,7 +137,8 @@ body {
       letter-spacing: 0.02em;
       color: #434455;
       text-decoration: none;
-      color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
     
   }
   .contact:hover,
@@ -461,10 +462,12 @@ margin-bottom: 16px;
 
 .portfolio-link{
   display: block; 
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
   box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+  transform: translateY(0%);
 }
 .portfolio-link_list{
   padding: 32px 16px;
@@ -483,6 +486,7 @@ margin-bottom: 16px;
     letter-spacing: 0.04em;
     cursor: pointer;
     padding: 12px 24px 12px 24px;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 .heading-button:hover,
