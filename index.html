@@ -320,18 +320,22 @@
                 </li>
             </ul>    
     </div>
-    <div class="subscribe-form">
+    <div class="subscribe-class">
         <p class="subscribe">Subscribe</p>
         <form class="form-subscribe">
-            <label for="subscribe-name" class="subscribe-label">
-<input class="subscribe-input" type="email" name="email" placeholder="E-mail"></label>
-<button class="subscribe-button" type="submit">Subscribe<svg class="button-subscribe-svg"  width="24" height="24">
+            <label class="subscribe-label">
+            <input id="email"
+            class="subscribe-input" 
+            type="email" 
+            name="email" 
+            placeholder="E-mail"></label>
+<button class="subscribe-button" type="submit">Subscribe
+    <svg class="button-subscribe-svg"  width="24" height="24">
     <use href="./images/icons.svg#icon-icon-send"></use>  </svg>
  </button>
 </form>
     </div>
     </div>
-
 </footer>
   <!--Modal-->
 <div class="backdrop is-hidden" data-modal>
@@ -343,31 +347,32 @@
         </button>
         <p class="form-paraf">Leave your contacts and we will call you back</p>
         <form class="form" name="issue_report_form" autocomplete="off">
-
-            <div class="name-form">
                     <label for="user-name" class="form-label">Name
-                    <input class="form-input" type="text" name="username" id="user-name"></label>
+                        <div class="name-form">
+                    <input class="form-input" type="text"  name="user-name" id="user-name"></label>
                     <svg class="form-block-svg" width="18" height="24">
                         <use href="./images/icons.svg#icon-person-black-18dp-11"></use> </svg>
                 </div>
-            <div class="name-form">
+
                     <label class="form-label" >Phone
+                        <div class="name-form">
                     <input class="form-input" type="tel" name="phone"></label>
                     <svg class="form-block-svg" width="18" height="24">
                         <use href="./images/icons.svg#icon-phone-black-18dp-1"></use> </svg>
             </div>
-                <div class="name-form">
+
                 <label class="form-label">Email
+                    <div class="name-form">
                 <input class="form-input" type="email" name="email"></label>
                 <svg class="form-block-svg" width="18" height="24">
                     <use href="./images/icons.svg#icon-email-black-18dp-1"></use> </svg>
         </div>
         <div class="name-form">
-           <label class="form-label">Comment<textarea  class="form-textarea" name="user-comment" rows="5"  placeholder="Text input"  id="user-comment" ></textarea>
+           <label  for="user-privacy" class="form-label">Comment<textarea class="form-textarea" name="user-comment" id="user-comment"rows="5" placeholder="Text input" ></textarea>
           </label>
         </div>
           <div class="checkbox-form">
-        <input type="checkbox" class="checkbox visually-hidden" name="user-privacy"  value="true" id="policy" checked id="user-privacy">
+        <input type="checkbox" class="checkbox visually-hidden" name="user-privacy" id="user-privacy" value="true" checked>
         <label for="policy" class="agree-form"><span>
             <svg class="check-item" width="10" height="8">
                 <use href="./images/icons.svg#icon-Vector7"></use> </svg>

@@ -522,17 +522,20 @@ margin-bottom: 16px
 }
 
 .form-subscribe{
-  display: flex;
-  gap: 24px;
+display: flex;
+gap: 24px;
+flex-direction: row;
+align-items: center;
 }
-.subscribe-form{
+.subscribe-class{
   margin-left: 80px;
+  display: flex;
+  flex-direction: column;
   
 }
-.subscribe-form-input{
-  display: flex;
-  flex-direction: row;
-  
+.subscribe-label{
+display: flex;
+flex-direction: column;
 }
 .subscribe-input{
   border: 1px solid #FFFFFF;
@@ -587,6 +590,9 @@ height: 40px;
 border: none;
 
 }
+.subscribe-label{
+gap:24px;
+}
 .subscribe-button:hover,
 .subscribe-button:focus{
   border-color: #404BBF;
@@ -595,7 +601,7 @@ border: none;
 }
 
 
-.subscribe-button-telegram{
+.subscribe-button{
   position: relative;
 }
 .button-subscribe-svg{
@@ -809,6 +815,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #2E2F42;
 text-align: center;
+margin-bottom: 16px;
 }
 .form{
   display: flex;
@@ -826,7 +833,7 @@ text-align: center;
 .form-block-svg{
   position: absolute;
   transform: translateY(-50%); 
-  top:60%;
+  top:50%;
   left: 16px;
   fill:  #2E2F42;
   stroke: #2E2F42;
