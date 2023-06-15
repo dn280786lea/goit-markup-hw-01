@@ -807,7 +807,9 @@ gap:24px;
   opacity:0;
   pointer-events:none;
 }
-
+.name-form{
+  margin-bottom: 8px;
+}
 .form-paraf{
 font-weight: 500;
 font-size: 16px;
@@ -825,7 +827,7 @@ margin-bottom: 16px;
   margin-left: 24px;
 
 }
-.name-form{
+.wrap-form{
   position: relative;
   margin-bottom: 8px;
 }
