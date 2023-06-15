@@ -814,9 +814,9 @@ text-align: center;
 .form-block-svg{
   position: absolute;
   transform: translateY(-50%); 
-  top:50%;
+  top:60%;
   left: 16px;
-  fill:  #4D5AE5;
+  fill:  #2E2F42;
   stroke: #2E2F42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
