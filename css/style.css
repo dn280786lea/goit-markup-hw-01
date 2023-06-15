@@ -824,7 +824,6 @@ margin-bottom: 16px;
   flex-direction: column;
   padding: 8px;
   max-width: 360px;
-  margin-left: 24px;
 
 }
 .wrap-form{
@@ -982,7 +981,7 @@ text-decoration: underline;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent; 
+   fill: transparent; 
   margin-right: 8px;
   width: 16px;
   height: 16px;
