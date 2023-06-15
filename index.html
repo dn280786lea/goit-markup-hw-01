@@ -328,7 +328,7 @@
             <div class="subscribe-button-telegram">
                 <svg class="button-subscribe-svg"  width="24" height="24">
                     <use href="./images/icons.svg#icon-icon-send"></use>  </svg> 
-            <button class="subscribe-button" type="submit" width="165" height="40">Subscribe</button>
+            <button class="subscribe-button" type="submit">Subscribe</button>
         </div>
         </div>
 </div>
@@ -369,8 +369,12 @@
           </label>
         </div>
           <div class="checkbox-form">
-        <input type="checkbox" class="checkbox" name="checkbox">
-        <p class="agree-form">I accept the terms and conditions of the<a class="privacy-btn" href="#">Privacy Policy</a></p>
+        <input type="checkbox" class="checkbox visually-hidden" name="checkbox" value="true" id="policy" checked >
+        <label for="policy"class="agree-form"><span>
+            <svg class="check-item" width="10" height="8">
+                <use href="./images/icons.svg#icon-Vector7"></use> </svg>
+        </span>I accept the terms and conditions of the<a href="#">Privacy Policy</a>
+    </label>
     </div>
            <button class="form-button" type="submit" >Send</button>
          </form>
