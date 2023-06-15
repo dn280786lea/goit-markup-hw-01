@@ -894,6 +894,7 @@ margin-bottom: 4px;
   width: 100%; 
   border:1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  padding: 8px 16px;
   height: 120px;
   display: block;
   resize: none;
@@ -924,8 +925,11 @@ margin-bottom: 4px;
 
 .form-button{
   text-align: center;
+  font-weight: 500;
   background-color: #4d5ae5;
   border-radius: 4px; 
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -969,7 +973,8 @@ color: #4D5AE5;
 padding-left: 8px;
 text-decoration: underline;
 }
-.agree-form span{
+.checkbox-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -979,11 +984,12 @@ display: flex;
 justify-content: center;
 align-items:center;
 fill: transparent;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .checkbox:checked + .agree-form span{
-  background: #404BBF;
+  background: #404bbf;
   border: none;
-fill:white;
+fill:#F4F4FD; 
 }
 
