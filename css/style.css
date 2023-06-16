@@ -839,9 +839,9 @@ margin-bottom: 16px;
   stroke:#4D5AE5;
   fill: #4D5AE5;
 }
-.form-input:focus + form-block-svg {
+.form-input:focus + .form-block-svg {
   fill:   #404BBF;
-  
+
   }
 
 
