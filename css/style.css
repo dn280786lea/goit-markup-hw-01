@@ -524,6 +524,8 @@ margin-bottom: 16px;
 .form-subscribe{
 display: flex;
 gap: 24px;
+padding-top: 16px;
+
 
 
 }
