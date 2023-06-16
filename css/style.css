@@ -837,17 +837,17 @@ margin-bottom: 16px;
   
   
 }
+
+.form-input:focus + form-block-svg {
+  fill:   #404BBF;
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 .form-block-svg:hover{
   stroke:#4D5AE5;
-  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #4D5AE5;
 }
 
-.form-block-svg:focus{
-  stroke:#4D5AE5;
-  fill: #4D5AE5;
-  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .form-label{
 display: flex;
