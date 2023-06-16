@@ -833,9 +833,7 @@ margin-bottom: 16px;
   left: 16px;
   color:#2E2F42;
   stroke: #2E2F42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-  
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .form-input:focus + form-block-svg {
