@@ -530,6 +530,7 @@ gap: 24px;
   margin-left: 80px;
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
   
 }
 .subscribe-label{
@@ -829,7 +830,7 @@ margin-bottom: 16px;
   transform: translateY(-50%); 
   top:50%;
   left: 16px;
-  fill: #4D5AE5; 
+  color:#2E2F42;
   stroke: #2E2F42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
@@ -957,7 +958,6 @@ line-height:  1.17;
 letter-spacing: 0.04em;
 color: #8E8F99;
 cursor: pointer;
-display: flex;
 align-items:center;
 }
 .agree-form a{
